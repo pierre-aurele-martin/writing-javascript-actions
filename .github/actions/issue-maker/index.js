@@ -12,6 +12,7 @@ async function run() {
 
     // const octokit = new github.GitHub(token);
     const octokit = new Octokit({
+        auth: token,
         userAgent: 'action-three',
     });
 
